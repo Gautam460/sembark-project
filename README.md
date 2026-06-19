@@ -22,15 +22,16 @@ Here are the steps to run my project locally.
    ```
 
 4. Database setup:
-   I have used SQLite for easier testing. Just create a file for it:
-   ```bash
-   touch database/database.sqlite
-   ```
-   Then in your `.env` file, change the DB connection to sqlite:
+   I have used MySQL for this project. Create a new database in your local MySQL server (for example, `sembark`). 
+   Then in your `.env` file, update the DB credentials:
    ```env
-   DB_CONNECTION=sqlite
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=sembark
+   DB_USERNAME=root
+   DB_PASSWORD=your_password
    ```
-   (You can just delete the other DB_HOST, DB_PORT lines)
 
 5. Run the migrations:
    ```bash
