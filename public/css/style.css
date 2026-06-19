@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    padding: 20px;
+}
+
+/* center login box */
+.auth-container {
+    width: 350px;
+    margin: 100px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-container h1 {
+    text-align: center;
+    color: #222;
+    border-bottom: none;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 1px solid #999;
+}
+
+/* general forms */
+form {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+/* Auth container form shouldn't have double border */
+.auth-container form {
+    border: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #004c99;
+}
+
+/* tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid #aaa;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e6e6e6;
+}
+
+/* alerts */
+.alert-error {
+    background-color: #ffcccc;
+    color: red;
+    padding: 10px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+
+.alert-success {
+    background-color: #ccffcc;
+    color: green;
+    padding: 10px;
+    border: 1px solid green;
+    margin-bottom: 10px;
+}
+
+/* Navigation bar */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav form {
+    display: inline;
+    border: none;
+    padding: 0;
+    width: auto;
+    background: transparent;
+}
+
+nav form button {
+    background: none;
+    color: blue;
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav form button:hover {
+    background: none;
+}
